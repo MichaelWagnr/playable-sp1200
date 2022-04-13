@@ -9,7 +9,7 @@ body {
     background-image:
         url(./triston-dunn-rfj_wOYQkus-unsplash.jpg);
     background-size: cover;
-    background-position-y: -200px;
+    /* background-position-y: -200px; */
     display: grid;
     justify-content: center;
     align-items: center;
@@ -20,8 +20,8 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-gap: 20px;
-    width: 40vw;
+    /* grid-gap: 20px; */
+    /* width: 40vw; */
     overflow-y: hidden;
 }
 
