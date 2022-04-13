@@ -9,7 +9,6 @@ body {
     background-image:
         url(./triston-dunn-rfj_wOYQkus-unsplash.jpg);
     background-size: cover;
-    background-position-y: -200px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -107,5 +106,11 @@ span {
     .error {
         z-index: 10;
         opacity: 100;
+    }
+
+    .container {
+        width: 400px;
+        overflow-x: hidden;
+
     }
 }
