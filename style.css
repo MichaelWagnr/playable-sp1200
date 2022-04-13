@@ -6,11 +6,9 @@
 }
 
 body {
-    background-image: 
-    /* linear-gradient(black, black), */
-    url(./triston-dunn-rfj_wOYQkus-unsplash.jpg);
+    background-image:
+        url(./triston-dunn-rfj_wOYQkus-unsplash.jpg);
     background-size: cover;
-    /* background-blend-mode: saturation; */
     background-position-y: -200px;
     display: grid;
     justify-content: center;
@@ -51,19 +49,19 @@ body {
     display: grid;
     grid-template-rows: repeat(10, auto);
     grid-gap: 5px;
-    box-shadow: rgba(0,0,0,0.1);
+    box-shadow: rgba(0, 0, 0, 0.1);
     margin: auto 0px;
 }
 
 button {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
     color: var(--spwhite);
     border: none;
     border-radius: 3px;
     font-family: helvetica;
     font-weight: 900;
     cursor: pointer;
-    
+
 }
 
 button:hover:not(.selected) {
